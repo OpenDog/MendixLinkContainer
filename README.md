@@ -16,4 +16,4 @@ This way you can implement the use of actual urls which enables opening a link w
 linkcontainer@opendog.org
 
 ## Credit
-This widget is a clone of Hunter Koppen widget with the same name
+This widget is a clone of Hunter Koppen's widget with the same name
