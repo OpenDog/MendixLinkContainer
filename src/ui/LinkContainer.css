@@ -1,0 +1,11 @@
+.link-container .link-container-content {
+    pointer-events: none;
+}
+
+.link-container-wrapper {
+    display: inline;
+}
+
+.link-container-content {
+    display: inline;
+}

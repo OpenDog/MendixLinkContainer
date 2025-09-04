@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="opendog.linkcontainer.LinkContainer" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Link Container</name>
+    <description/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="content" type="widgets">
+                <caption>Content</caption>
+                <description>Content to put inside the link container.</description>
+            </property>
+            <property key="url" type="expression" required="true">
+                <caption>URL</caption>
+                <description/>
+                <returnType type="String" />
+            </property>
+            <property key="target" type="enumeration" defaultValue="_blank">
+                    <caption>Target</caption>
+                    <description>Open the link in the current of a new tab?</description>
+                    <enumerationValues>
+                        <enumerationValue key="_self">Current tab</enumerationValue>
+                        <enumerationValue key="_blank">New tab</enumerationValue>
+                    </enumerationValues>
+                </property>
+        </propertyGroup>
+    </properties>
+</widget>
